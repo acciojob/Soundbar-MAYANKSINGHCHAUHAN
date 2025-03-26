@@ -1,1 +1,32 @@
-/*  your css code here. If applicable */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #9b5de5;
+    margin: 0;
+}
+
+#buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+    text-transform: lowercase;
+}
+
+.btn:hover {
+    background-color: #4a148c;
+}
+
+.stop {
+    background-color: red;
+}
